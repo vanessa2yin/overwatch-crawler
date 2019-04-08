@@ -1,0 +1,1649 @@
+{
+  "Ana": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Ana Amari",
+      "Age": "60",
+      "Occupation": "Second in Command, Overwatch (formerly), Bounty Hunter",
+      "Base of Operations": "Cairo, Egypt",
+      "Affiliation": "FormerlyOverwatch"
+    },
+    "abilities": {
+      "Biotic Rifle": {
+        "Ammo": " 10 rounds per clip",
+        "Reload Time": "1.5-second reload"
+      },
+      "Primary fire: Unscoped Mode": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Damage": " 70 damage",
+        "Healing": "75 healing",
+        "Fire Rate": "1.25 shots per second",
+        "Projectile Speed": "90 m/s",
+        "Duration": "Lasts 0.85 seconds",
+        "description": "Headshot? Cannot headshot"
+      },
+      "Secondary fire: Scoped Mode": {
+        "HOTKEY": " Right CLICK  or ",
+        "Movement Speed": " 1.9 m/s",
+        "Damage": "70 damage",
+        "Healing": "75 healing",
+        "Fire Rate": "1.25 shots per second",
+        "Scope Time": "0.25 scope in, 0.15 scope out",
+        "Duration": "Lasts 0.85 seconds",
+        "description": "Anas rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifles scope to zoom in on targets and make highly accurate shots."
+      },
+      "Sleep Dart": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 5",
+        "Sleep duration": " 6 seconds (or until damaged)",
+        "Cast Time": " 0.5seconds",
+        "Cooldown": " 12 seconds",
+        "description": "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them)."
+      },
+      "Biotic Grenade": {
+        "HOTKEY": " E  or ",
+        "Damage": " 60 damage to enemies",
+        "Splash Radius": "4 m",
+        "Healing": "100 healing to allies; 100 healing on self",
+        "Healing Buff": "+50% healing to allies, or block healing to enemies;+50% healing on self",
+        "Duration": "Lasts 4 seconds",
+        "Cooldown": "10-seconds",
+        "description": "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments."
+      },
+      "Nano Boost\u00a0(Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage increase": " 50%",
+        "Damage mitigation": " 50%",
+        "Movement speed": " 30%",
+        "Healing": " 250 health",
+        "Duration": " 8 seconds",
+        "Range": " 40m",
+        "Cast time": "0.15 sec cast",
+        "description": "After Ana hits one of her allies with a combat boost, they temporarily move faster, deal more damage, and take less damage from enemies attacks."
+      }
+    }
+  },
+  "Baptiste": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": " Jean-Baptiste Augustin",
+      "Age": "36",
+      "Occupation": " Combat Medic",
+      "Base of Operations": " Tortuga, Haiti (formerly)",
+      "Affiliation": " Caribbean Coalition (formerly), Talon (formerly)"
+    },
+    "abilities": {
+      "Exo Boots (Passive)": {
+        "HOTKEY": " CROUCH or Charge Time",
+        "description": "Once crouch is released, jump remain charged for 1 second. Resets if crouch is pressedBy first crouching, Baptiste can jump higher."
+      },
+      "Biotic Launcher (Primary) (Hitscan)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": "45 (3 per shot)",
+        "Damage per bullet": "12.5-25 (37.5  75 total possible)",
+        "Rate of fire": "3 rounds per second then .35 second cooldown",
+        "Reload time": "1.5 seconds",
+        "description": "Baptistes three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output."
+      },
+      "Biotic Launcher (Secondary) (Projectile)": {
+        "HOTKEY": " Right CLICK  or ",
+        "Healing": "60",
+        "Ammo": "10",
+        "Radius": "3 meters",
+        "Rate of fire": "1 shot per .8 second",
+        "Reload time": "1.5 seconds",
+        "description": "Will pass through teammates with full healthIt also doubles as a healing device, lobbing projectiles that heal allies near the point of impact."
+      },
+      "Regenerative Burst": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Healing": "  30 per second (150 total)",
+        "Cooldown": "  15 seconds",
+        "Radius": "  10 meters",
+        "Cast time": " .3 seconds",
+        "description": "Heal applies once to allies within 3 meters. They receive 5 full seconds of healing.Baptiste activates an intense regenerative burst that heals himself and nearby allies over time."
+      },
+      "Immortality Field": {
+        "HOTKEY": " E  or ",
+        "Duration": "8 seconds (field persist .5 seconds longer than generator)",
+        "Area of Effect": " 6 meters",
+        "Cooldown": "20 seconds",
+        "Health": " 250",
+        "Cast time": " 1 second",
+        "description": "Generator bounces off environmentBaptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed."
+      },
+      "Amplification Matrix (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage Buff": " 100%",
+        "Healing Buff": " 100%",
+        "Duration": " 8 seconds",
+        "Radius": " 5 meters wide, 4 meters tall",
+        "Cast Range": " 30 meters",
+        "description": "Can change direction by pressing ult key againBaptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it."
+      }
+    }
+  },
+  "Bastion": {
+    "health": 200,
+    "armor": 100,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": "SST Laboratories Siege Automaton E54",
+      "Age": "30",
+      "Occupation": "Battle Automaton",
+      "Base of Operations": "Unknown",
+      "Affiliation": "None"
+    },
+    "abilities": {
+      "Ironclad (Passive)": {
+        "Damage Resistance": " +20%",
+        "description": "Reduce damage taken while transformed."
+      },
+      "Configuration:\u00a0Recon": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 25 rounds per clip",
+        "Reload Time": "2-seconds",
+        "Damge": "6  20 damage",
+        "Falloff": "26  50 m falloff range",
+        "Fire Rate": "8 shots per second",
+        "description": "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range."
+      },
+      "Configuration:\u00a0Sentry": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 300 rounds per clip",
+        "Reload Time": "2-seconds",
+        "Damage": "4  15 damage",
+        "Falloff": "35  55 m falloff range",
+        "Fire Rate": "35 rounds per sec",
+        "description": "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The guns aim can be walked across multiple targets, dealing devastating damage at short to medium range."
+      },
+      "Self-Repair": {
+        "HOTKEY": " Right CLICK  or ",
+        "Healing Rate": "70 HP per second on self",
+        "Recharge Time": "7 seconds",
+        "Movement Speed": "5.5 m/s movement speed",
+        "Duration": "4.3 seconds or until stopped",
+        "description": "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The guns aim can be walked across multiple targets, dealing devastating damage at short to medium range."
+      },
+      "Reconfigure": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Recon to sentry": " 1 second",
+        "Sentry to Recon": " 0.5 seconds",
+        "Ability": " Reloads your weapon",
+        "description": "Press to switch between weapon configurations."
+      },
+      "Configuration: Tank (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Fire Rate": " 1 shell per second",
+        "Direct Hit Damage": "205",
+        "Splash Damage": "70  145",
+        "Splash Damage (Self)": "28",
+        "Splash Radius": "4 m",
+        "Projectile Speed": "44 m/s",
+        "Cast Time": "1.5 sec cast",
+        "Duration": "Lasts 8 seconds",
+        "description": "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannons explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time."
+      }
+    }
+  },
+  "D-va": {
+    "health": 400,
+    "armor": 200,
+    "shield": 0,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Hana Song",
+      "Age": "19",
+      "Occupation": "Former pro gamer, Mech pilot",
+      "Base of Operations": "Busan, South Korea",
+      "Affiliation": "Mobile Exo-Force of the Korean Army"
+    },
+    "abilities": {
+      "WITH MECH": {},
+      "Eject (Passive)": {
+        "Duration": " 1 second",
+        "description": "D.Va ejects out of her mech when it is destroyed."
+      },
+      "Fusion Cannons (Mech)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": "  rounds per clip;11 pellets per shot",
+        "Damage": "0.6  2 damage per pellet; Max 22 bodyshot damage",
+        "Falloff": "10  20 m falloff range",
+        "Fire Rate": "6.67 shots per sec",
+        "Movement Speed": "2.75 m/s",
+        "description": "D.Vas mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Vas movement while theyre active."
+      },
+      "Defense Matrix": {
+        "HOTKEY": " hold Right Click or ",
+        "Recharge Time": " 8 seconds",
+        "Range": "15 m range",
+        "Movement Speed": "5.5 m/s movement speed",
+        "Duration": "Lasts 2 seconds or until turned off",
+        "Cooldown": "1-second",
+        "description": "D.Va can activate this forward-facing targeting array to shoot incoming projectiles out of the air."
+      },
+      "Boosters": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 25",
+        "Range": "25 m",
+        "Movement Speed": "12.5 m/s",
+        "Duration": "Lasts 2 seconds or until cancelled",
+        "Cooldown": "5-seconds",
+        "description": "D.Vas mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back."
+      },
+      "Micro Missiles": {
+        "HOTKEY": " E or ",
+        "Damage": " 9-2 per rocket;Max 162 damage per use",
+        "Splash Damage": "6-2",
+        "Splash Self Damage": "6",
+        "Fire Rate": "11 shots per second",
+        "Radius": "1.5 m",
+        "Cast Time": "~0.5 sec",
+        "Duration": "Lasts ~1.6 seconds",
+        "Cooldown": "8-second",
+        "description": "D.Vas mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back."
+      },
+      "Self-Destruct (Mech Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 1000 from point of explosion (falls off with distance)",
+        "Splash range": " 20 meters",
+        "Duration": " 3 seconds",
+        "description": "D.Va ejects from her mech and sets its reactor to explode, dealing massive damage to nearby opponents."
+      },
+      "WITHOUT MECH": {},
+      "Light Gun (Pilot)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 20 per clip",
+        "Damage per shot": " 14",
+        "Rate of fire": " 7rounds per second",
+        "Reload time": " 1.5 seconds",
+        "Projectile Speed": " 40 m/s",
+        "description": "While outside of her mech, D.Va can continue the fight with a mid-range automatic blaster."
+      },
+      "Call Mech (Pilot Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 50",
+        "Cast Time": "Lasts 2 seconds",
+        "description": "If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray."
+      }
+    }
+  },
+  "Doomfist": {
+    "health": 250,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": " Akande Ogundimu\nAge"
+    },
+    "abilities": {
+      "The Best Defense\u2026 (Passive)": {
+        "Buff": " +30 or +75 temporary shield per enemy damaged",
+        "Max Shield": " Max 150 temporary shield",
+        "Decay": " 3 HP per sec decay;1.5 sec decay buffer",
+        "description": "Doomfist generates temporary personal shields when he deals ability damage."
+      },
+      "Hand Cannon": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 4 rounds per clip",
+        "Reload": " 0.75 second reload per round; Max 3-second reload",
+        "Type": " Shotgun",
+        "Damage": " 11 damage per pellet; 6pellets per shot;Max 66 bodyshot damage",
+        "Fire Rate": "3.3 shots per sec",
+        "description": "Doomfist fires a short-range burst from the knuckles of his fist. Its ammunition is automatically regenerated over a short time."
+      },
+      "Rocket Punch": {
+        "HOTKEY": " RIGHT CLICK  or ",
+        "Damage": "49  100 damage; Max 98  250 damage if a wall is hit",
+        "Range": "10-20 m",
+        "Charge Time": "1 sec, 2 sec forced release",
+        "Cooldown": "4-seconds",
+        "description": "After charging up, Doomfist lunges forward and knocks an enemy back, dealing additional damage if they impact a wall."
+      },
+      "Rising Uppercut": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 50",
+        "Cooldown": "7-seconds",
+        "description": "Doomfist uppercuts enemies in front of him into the air."
+      },
+      "Seismic Slam": {
+        "HOTKEY": " E  or ",
+        "Damage": " 10-125 damage",
+        "Range": "7.5 m range",
+        "Cast Duration": "1.5 seconds needed for full damage",
+        "Cooldown": "7-seconds",
+        "description": "Doomfist leaps forward and smashes into the ground, knocking nearby enemies toward him."
+      },
+      "Meteor Strike (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 300  10",
+        "Radius": " 7.5 m",
+        "Cast Time": " 1 sec cast",
+        "Duration": " Lasts 4 seconds",
+        "description": "Doomfist leaps into the sky, then crashes to the ground, dealing significant damage."
+      }
+    }
+  },
+  "Genji": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Genji Shimada",
+      "Age": "35",
+      "Occupation": "Adventurer",
+      "Base of Operations": "Shambali Monastery, Nepal",
+      "Affiliation": "Formerly Shimada Clan and Overwatch"
+    },
+    "abilities": {
+      "Cyber-Agility (Passive)": {
+        "Ability": " Climb walls",
+        "description": "Thanks to his cyberneticabilities, Genji can climb walls and perform jumps in mid-air."
+      },
+      "Shuriken": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 24 rounds per clip",
+        "Reload Time": "1-second",
+        "Damage": "28 damage per shuriken;Max 84 bodyshot damage",
+        "Projectiles": "3 shuriken per shot",
+        "Fire Rate": "1 burst per second;3 rounds per burst",
+        "Projectile Speed": "47 m/s",
+        "description": "Genji looses three deadly throwing stars in quick succession."
+      },
+      "Fan of Blades": {
+        "HOTKEY": " Right CLICK  or ",
+        "Ammo": " 28 damage per shuriken",
+        "Reload Time": "1-second",
+        "Projectiles": "3 shuriken per shot",
+        "Damage": "Max 84 bodyshot damage",
+        "Fire Rate": "1.33 shot per second; 3 rounds per shot",
+        "Projectile Speed": "47 m/s",
+        "description": "Alternatively, he can throw three shuriken in a wider spread."
+      },
+      "Swift Strike": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 50",
+        "Range": "15 m range",
+        "Movement Speed": "37 m/s",
+        "Duration": "Lasts ~0.4 seconds",
+        "Cooldown": "8-second cooldown",
+        "description": "Genji darts forward, slashing with his katana and passing through foes in his path. If Genji eliminates a target, he can instantly use this ability again."
+      },
+      "Deflect": {
+        "HOTKEY": " E  or ",
+        "Cooldown": " 8 seconds",
+        "description": "With lightning-quick swipes of his sword, Genji reflects an oncoming projectile and sends it rebounding towards his opponent."
+      },
+      "Dragonblade (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Buff Duration": " 6 seconds",
+        "Damage": " 120 per strike",
+        "Attack speed": " 1.17 per second",
+        "Run speed": " Increased",
+        "Range": " 5m",
+        "Movement Speed": " 8 m/s",
+        "description": "Genji brandishes his katana for a brief period of time. Until he sheathes his sword, Genji can deliver killing strikes to any targets within his reach."
+      }
+    }
+  },
+  "Hanzo": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": "Hanzo Shimada",
+      "Age": "38",
+      "Occupation": "Mercenary, Assassin",
+      "Base of Operations": "Formerly Hanamura, Japan",
+      "Affiliation": "Shimada Clan"
+    },
+    "abilities": {
+      "Wall Climb (Passive)": {
+        "Ability": " Can climb up walls",
+        "description": "Jump at walls to climb at them."
+      },
+      "Storm Bow": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " Infinite",
+        "Damage per shot": " 29-125",
+        "Rate of fire": " 0.8  2 shots per second",
+        "Cast duration": " 0.75 seconds to fully charge arrow, 0.5 seconds buffer",
+        "Projectile Speed": " 26  86.66 m/s",
+        "Movement Speed": " 3.85 m/s",
+        "description": "Hanzo nocks and fires an arrow at his target."
+      },
+      "Sonic Arrow": {
+        "HOTKEY": " E  or ",
+        "Damage": " 29  125",
+        "Projectile Speed": "26  87 m/s",
+        "Radius": "10 m",
+        "Movement Speed": "3.85 m/s",
+        "Duration": "Lasts 10 seconds",
+        "Cooldown": "20-second cooldown",
+        "description": "Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down."
+      },
+      "Scatter Arrow": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 29  125 for the initial shot, 22  75 per fragment",
+        "Projectiles": "6 fragments per shot",
+        "Max Damage": "Max 450 fragment damage",
+        "Projectile Speed": "26  87 m/s",
+        "Movement Speed": "3.85 m/s",
+        "Cooldown": "10-seconds",
+        "description": "Hanzo shoots a fragmenting arrow that ricochets off walls and objects and can strike multiple targets at once."
+      },
+      "Dragonstrike": {
+        "HOTKEY": " Q  or ",
+        "Damage": "200 per second (dragons)",
+        "Range": "infinite",
+        "Radius": "4 m",
+        "Cast Time": "1.5 sec",
+        "description": "Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters."
+      }
+    }
+  },
+  "Junkrat": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": "Jamison Fawkes",
+      "Age": "25",
+      "Occupation": "Anarchist, Thief, Demolitionist, Mercenary, Scavenger",
+      "Base of Operations": "Junkertown, Australia"
+    },
+    "abilities": {
+      "Total Mayhem (Passive)": {
+        "Damage": " 60 per grenade",
+        "Max Damage": "300",
+        "Radius": "2 m splash radius",
+        "Projectiles": "5 grenades upon death",
+        "description": "Junkrats deranged sense of humor persists past his death. If killed, he drops several live grenades."
+      },
+      "Frag Launcher": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 5 rounds per clip",
+        "Reload Time": "1.5-second",
+        "Damage": "120 direct hit;12.5  80 splash damage",
+        "Radius": "2 m splash",
+        "Fire Rate": "1.66 shots per second",
+        "Projectile Speed": "17.5 m/s",
+        "description": "Junkrats Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy."
+      },
+      "Concussion Mine": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "TriggerHOTKEY": " right click or ",
+        "Damage": " 120",
+        "Radius": "3 m splash",
+        "Health": "5 HP",
+        "Ammo": "2 charges",
+        "Projectile Speed": "17.5 m/s",
+        "Duration": "Lasts until detonated",
+        "Cooldown": "8-second cooldown",
+        "description": "After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying or propel himself through the air."
+      },
+      "Steel Trap": {
+        "HOTKEY": " E  or ",
+        "Damage": " 80",
+        "Health": "100 HP",
+        "Radius": "1 m radius",
+        "Duration": "Lasts 3 seconds",
+        "Cooldown": "10-second",
+        "description": "Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and immobilizing them."
+      },
+      "Rip-Tire (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "detonate HOTKEY": " Left or right click or ",
+        "Damage": " 60  600 splash",
+        "Radius": "10 m splash",
+        "Projectile Speed": "13 m/s",
+        "description": "Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.",
+        "Cast Time": "1.5  2 sec",
+        "Duration": "Lasts 10 seconds"
+      }
+    }
+  },
+  "Lucio": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Lucio Correia dos Santos",
+      "Age": "26",
+      "Occupation": "DJ, Freedom Fighter",
+      "Base of Operations": "Rio de Janeiro, Brazil",
+      "Affiliation": "None"
+    },
+    "abilities": {
+      "Wall Ride (Passive)": {
+        "HOTKEY": "SPACEBAR",
+        "Ability": " Can ride along a wall",
+        "Movement Speed": " 7.7 m/s",
+        "description": "Jump onto a wall to ride along it."
+      },
+      "Sonic Amplifier": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 20 rounds per clip",
+        "Reload Time": "1.25-seconds",
+        "Damage": "20 per projectile",
+        "Projectiles": "4 projectiles per shot",
+        "Max Damage": "Max 80 bodyshot damage",
+        "Fire Rate": "1 burst per second; 4 rounds per burst",
+        "Projectile Speed": "50 m/s",
+        "description": "Lcio can hit his enemies with sonic projectiles or knock them back with a blast of sound."
+      },
+      "Soundwave (Alternate fire)": {
+        "HOTKEY": " Right CLICK  or ",
+        "Ammo": " 20 rounds per clip (4 rounds per shot)",
+        "Reload Time": " 1.25 seconds",
+        "Damage": "25 damage",
+        "Range": "8 m range",
+        "Cooldown": "4-seconds",
+        "description": "Knock enemies back with a blast of sound."
+      },
+      "Crossfade": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Heal Rate": " 13 HP per second on self",
+        "Movement Speed": " +30% movement speed",
+        "Radius": " 10 m",
+        "Buffer": " 0.5 sec",
+        "Cooldown": " none",
+        "Lcio continuously energizes himselfand nearby teammateswith music. He can switch between two songs": " one amplifies movement speed, while the other regenerates health."
+      },
+      "Amp It Up": {
+        "HOTKEY": " E  or ",
+        "Heal Rate": "35 HP per second on self",
+        "Movement Speed": "+70% movement speed",
+        "Radius": "10 m",
+        "Duration": "Lasts 3 seconds",
+        "Cooldown": "12-seconds",
+        "description": "Lcio increases the volume on his speakers, boosting the effects of his songs."
+      },
+      "Sound Barrier (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Radius": " 30 m radius",
+        "Shield": "+500 temporary shield",
+        "Duration": "Lasts 6.25 seconds",
+        "description": "Protective waves radiate out from Lcios Sonic Amplifier, briefly providing him and nearby allies with personal shields."
+      }
+    }
+  },
+  "McCree": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Jesse McCree",
+      "Age": "37",
+      "Occupation": "Bounty Hunter",
+      "Base of Operations": "Santa Fe, New Mexico, USA",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Peacekeeper (Single Shot)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 6 per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "20  70 damage",
+        "Falloff": "20  45 m",
+        "Fire Rate": "2 shots per second",
+        "description": "McCree fires off a round from his trusty six-shooter."
+      },
+      "Peacekeeper (Fan the Hammer)": {
+        "HOTKEY": " Right Click or ",
+        "Ammo": " 6 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "22  45 damage per bullet",
+        "Projectiles": " 1  6 bullets per shot",
+        "Max Damage": "Max 270 damage",
+        "Falloff": " 18  30 m",
+        "Fire Rate": " 1 bullet in 0.11 second to 6 bullets in 0.67 second",
+        "description": "McCreecan fan the Peacekeepers hammer to swiftly unload the entire cylinder.",
+        "Buffer": " 0.3 seconds"
+      },
+      "Combat Roll": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Range": " 6 m",
+        "Movement Speed": "12 m/s",
+        "Duration": "0.5 seconds",
+        "Cooldown": "8-seconds",
+        "description": "McCree dives in the direction hes moving, effortlessly reloading his Peacekeeper in the process."
+      },
+      "Flashbang": {
+        "HOTKEY": " E  or ",
+        "Damage": " 25",
+        "Radius": "2 m splash",
+        "Range": " 5 m range",
+        "Buffer": " 0.35 seconds",
+        "Duration": " 0.7 seconds",
+        "Cooldown": " 10-second",
+        "description": "McCree heaves a blinding grenade that explodes shortly after it leaves his hand. The blast staggers enemies in a small radius."
+      },
+      "Deadeye (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 100 or 250 per sec",
+        "Movement Speed": " 2 m/s movement speed",
+        "Cast Time": " 0.2 sec",
+        "Duration": " 6 seconds",
+        "description": "Focus. Mark. Draw. McCree takes a few precious moments to aim; when hes ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster hell line up a killshot."
+      }
+    }
+  },
+  "Mei": {
+    "health": 250,
+    "armor": 0,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": "Mei-Ling Zhou",
+      "Age": "31",
+      "Occupation": "Climatologist, Adventurer",
+      "Base of Operations": "FormerlyXian, China",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Endothermic Blaster: Freeze Spray": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 200 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": " 2.25 per round",
+        "Damage Rate": "45 per second",
+        "Fire Rate": "20 rounds per second",
+        "Projectile Speed": " 20 m/s",
+        "Range": " 10 m range",
+        "Time to Freeze Enemy": " 1.5 seconds",
+        "Freeze Duration": " 1.5 seconds (frozen), 0.5  1 second (slowness)",
+        "description": "Meis blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place."
+      },
+      "Endothermic Blaster: Icicle (Alternate Fire)": {
+        "HOTKEY": " RightCLICK  or ",
+        "Ammo": " 200 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "22  75",
+        "Falloff": "36  55 m",
+        "Fire Rate": "~1.17 shots per second",
+        "Projectiles": "25 rounds per shot",
+        "Projectile Speed": "120 m/s",
+        "Charge Time": "~0.38 seconds",
+        "Headshot?": " Can Headshot",
+        "description": "Mei can also use her blaster to shoot icicle-like projectiles at medium range."
+      },
+      "Cryo-Freeze": {
+        "HOTKEY": " LEFTSHIFT  or and again to cancel",
+        "Heal Rate": " 37.5 HP per second on self",
+        "description": "Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.",
+        "Duration": "4 seconds or until cancelled",
+        "Cooldown": "12-second"
+      },
+      "Ice Wall": {
+        "HOTKEY": " E  or and again to rotate 90",
+        "Range": " 35 m range",
+        "Duration": " 4.5 seconds or until broken",
+        "Cooldown": " 10-second",
+        "description": "Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks."
+      },
+      "Blizzard (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage Rate": " 20 per second",
+        "Max Damage": " 100 per enemy",
+        "Radius": "10 m",
+        "Cast Time": "1.5 sec",
+        "Duration": "5 seconds non-headshot / 5-15% per headshot",
+        "description": "Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid."
+      }
+    }
+  },
+  "Mercy": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Angela Ziegler",
+      "Age": "34",
+      "Occupation": "Field Medic, First Responder",
+      "Base of Operations": " Zrich, Switzerland",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Angelic Descent (Passive)": {
+        "HOTKEY": " Spacebar or ",
+        "Ability": " Hold down the jump button to slow descent in the air",
+        "description": "Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights."
+      },
+      "Regeneration (Passive)": {
+        "Heal Rate": " 20 healing per second",
+        "Buffer": "1 sec",
+        "description": "Mercy automatically heals over time."
+      },
+      "Caduceus Staff": {
+        "PRIMARY": "Damage-Boosting Beam",
+        "HOTKEY": " LEFT CLICK  or ",
+        "Switch": " MIDDLE CLICK or 1  or ",
+        "Healing Rate": " 60 healing per second",
+        "Range": "15 (30) m",
+        "Radius": "10 m radius",
+        "Duration": "Until manually disconnected, or 2 seconds after blocked",
+        "SECONDARY": " RIGHT CLICK  or ",
+        "Damage Boost": "+30% damage dealt",
+        "description": "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that allys health or increase the amount of damage they deal."
+      },
+      "Caduceus Blaster": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Switch": " MIDDLE CLICK or 2  or ",
+        "Ammo": " 20 () rounds per clip",
+        "Reload Time": "1-second",
+        "Damage": "20",
+        "Fire Rate": "5 shots per second",
+        "Projectile Speed": "40 (80) m/s",
+        "description": "Mercy shoots a round from her sidearm. Its best reserved for emergency personal defense."
+      },
+      "Guardian Angel": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Range": " 30 meters",
+        "Cooldown": " 1.5 seconds",
+        "description": "Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments."
+      },
+      "Resurrect": {
+        "HOTKEY": " E  or ",
+        "Range": " 5 m",
+        "Movement Speed": "1.375 m/s",
+        "Cast Time": "1.75 sec",
+        "Duration": " 2.25 seconds",
+        "Cooldown": "30-seconds",
+        "description": "Mercy radiates restorative power, bringing nearby dead allies back into the fight with full health."
+      },
+      "Valkyrie (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Movement Speed": " 9 m/s",
+        "Duration": " 20 seconds",
+        "description": "Valkyrie unleashes the full power of Mercys Valkyrie Suit, enhancing her weapons and abilities for 20 seconds."
+      }
+    }
+  },
+  "Moira": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Moira ODeorain\nAge"
+    },
+    "abilities": {
+      "Biotic Grasp": {},
+      "Primary fire: Regeneration": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Healing Rate": " 80 per second; 16.67 healing per second (residual)",
+        "Projectile Speed": "30 m/s",
+        "Range": "15 m",
+        "Cast Time": "0.3 seconds cast time",
+        "Duration": "Lasts up to 9 seconds;Lasts 3 seconds (residue)",
+        "Recharge Time": "45  9 second",
+        "Headshot": " Cannot headshot"
+      },
+      "Secondary fire: Decay": {
+        "HOTKEY": " Right CLICK  or ",
+        "Damage Rate": " 50 damage per second",
+        "Healing Rate": "33 healing per second on self",
+        "Range": "20 m range",
+        "description": "Using her left hand, Moira expends biotic energy to heal allies in front of her. Her right hand fires a long-range beam weapon that saps enemies health, healing Moira and replenishing her biotic energy."
+      },
+      "Fade": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Movement Speed": " 18.75 m/s",
+        "Duration": "Lasts 0.8 seconds",
+        "Cooldown": "6-seconds",
+        "description": "Disappear, move faster, and become invulnerable, but you cannot shoot."
+      },
+      "Biotic Orb": {
+        "HOTKEY": " E  or ",
+        "Damage Rate": " 50 per second",
+        "Max Damage": "200",
+        "Healing Rate": "75 per second",
+        "Max Healing": "300",
+        "Projectile Speed": "20 (5.5) m/s",
+        "Cooldown": "10-seconds",
+        "description": "Moira launches a rebounding biotic sphere; she can choose between a regeneration effect that heals the allies it passes through, or a decay effect that deals damage to enemies."
+      },
+      "Coalescence (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Damage Rate": " 70 per second",
+        "Range": "30 m",
+        "Healing Rate": "140 per second",
+        "Movement Speed": "9 m/s",
+        "Cast Time": "0.5 sec",
+        "Duration": "Lasts 8 seconds",
+        "Headshot": " Cannot headshot",
+        "description": "Moira channels a long-range beam that both heals allies and bypasses barriers to damage her enemies. While channeling this ability, Moiras movement speed increases greatly, but she cannot perform any other actions."
+      }
+    }
+  },
+  "Orisa": {
+    "health": 200,
+    "armor": 200,
+    "shield": 0,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Orisa\nAge"
+    },
+    "abilities": {
+      "Fusion Driver": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 150 rounds per clip",
+        "Reload Time": "2.66-second",
+        "Damage": "11",
+        "Fire Rate": "12.5 rounds per sec",
+        "Projectile Speed": "72 m/s",
+        "Movement Speed": "2.75 m/s movement speed",
+        "Headshot": "Can headshot",
+        "description": "Orisas automatic projectile cannon delivers sustained damage, but slows her movement while she fires it."
+      },
+      "Halt!": {
+        "HOTKEY": " Right CLICK  or ",
+        "Projectile Speed": " 20 m/s",
+        "Radius": "7.5 m radius",
+        "Cast Time": "0.33 seconds",
+        "Duration": "Lasts 0.45 seconds",
+        "Cooldown": "8-seconds",
+        "description": "Orisa launches a graviton charge which she can detonate, slowing nearby enemies and pulling them towards the explosion."
+      },
+      "Fortify": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Buff": "+50% damage resistance",
+        "Duration": "Lasts 4 seconds",
+        "Cooldown": "10-seconds",
+        "description": "Orisa temporarily reduces damage she takes, and cannot be affected by action-impairing effects."
+      },
+      "Protective Barrier": {
+        "HOTKEY": " E  or ",
+        "Barrier HP": " 900",
+        "Projectile Speed": "19 m/s",
+        "Duration": "Lasts 20 seconds",
+        "Cooldown": "8-seconds",
+        "description": "Orisa throws out a stationary barrier that can protect her and her allies from enemy fire."
+      },
+      "Supercharger (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Damage Buff": "+50% damage dealt",
+        "Radius": "25 m radius",
+        "Cast Time": "1 sec cast",
+        "Duration": "Lasts 16 seconds",
+        "description": "Orisa deploys a device to increase damage by 50% inflicted by allies within its line of sight."
+      }
+    }
+  },
+  "Pharah": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Fareeha Amari",
+      "Age": "32",
+      "Occupation": "Security Chief",
+      "Base of Operations": "Giza, Egypt",
+      "Affiliation": "Helix Security International"
+    },
+    "abilities": {
+      "Hover Jets": {
+        "HOTKEY": " SPACE  or ",
+        "Recharge Time": " 2 seconds",
+        "Movement Speed": "5.5 m/s",
+        "Duration": "2 seconds or until stopped",
+        "description": "Pharah hovers in mid-air."
+      },
+      "Rocket Launcher": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 6 rounds per clip",
+        "Reload Time": "1-second",
+        "Damage": "120 direct hit;20  80 splash damage;10  40 splash self damage",
+        "Radius": "3 m splash",
+        "Fire Rate": "1.11 shots per second",
+        "Projectile Speed": "28.5 m/s",
+        "description": "Pharahs primary weapon launches rockets that deal significant damage in a wide blast radius."
+      },
+      "Concussive Blast": {
+        "HOTKEY": " E  or ",
+        "Radius": " 8 m splash",
+        "Projectile Speed": "57 m/s",
+        "Cooldown": "12-seconds",
+        "description": "Pharah looses a wrist rocket that knocks back any enemies it strikes."
+      },
+      "Jump Jet": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Range": " ~25 m",
+        "Movement Speed": "~20 m/s",
+        "Cooldown": "10-seconds",
+        "description": "Propelled by her suits thrusters, Pharah soars high into the air."
+      },
+      "Barrage (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Fire Rate": " 30 rockets per second",
+        "Damage": "40 per rocket",
+        "Max Damage": "Max 3600 per use",
+        "Projectile Speed": "28.5 m/s",
+        "description": "Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.",
+        "Duration": "3 seconds"
+      }
+    }
+  },
+  "Reaper": {
+    "health": 250,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Gabriel Reyes",
+      "Age": "Unknown",
+      "Occupation": "Mercenary",
+      "Base of Operations": "Unknown",
+      "Affiliation": "Unknown"
+    },
+    "abilities": {
+      "The Reaping (Passive)": {
+        "description": "Reaper steals health from his enemies as he damages them.",
+        "Effect": " 20% of damage done restored as HP"
+      },
+      "Hellfire Shotguns": {
+        "HOTKEY": " LEFTCLICK or ",
+        "Ammo": " 8 rounds per clip",
+        "Reload TIme": "1.5-seconds",
+        "Damage": "2  7 per pellet",
+        "Projectiles": "20 pellets per shot",
+        "Max Damage": " 140 bodyshot damage",
+        "Range": "11  20 m",
+        "Fire Rate": "2 shots per second",
+        "description": "Reaper can collect Soul Globes to regain health."
+      },
+      "Wraith Form": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Movement Speed": " 7.1 m/s",
+        "Duration": "3 seconds",
+        "Cooldown": "8-seconds",
+        "description": "Reaper becomes a shadow for a short period of time. While in this form, he takes no damage and is able to pass through enemies, but cannot fire his weapons or use other abilities."
+      },
+      "Shadow Step": {
+        "HOTKEY": " E  or ",
+        "Range": " 35 m range",
+        "Duration": "Lasts 2 seconds",
+        "Cooldown": "10-seconds",
+        "description": "After marking a destination, Reaper disappears and reappears at that location."
+      },
+      "Death Blossom (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage Rate": " 170 damage per sec",
+        "Max Damage": " 510 per enemy",
+        "Radius": "8 m",
+        "Movement Speed": "3 m/s",
+        "Duration": "3 seconds",
+        "description": "In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies."
+      }
+    }
+  },
+  "Reinhardt": {
+    "health": 300,
+    "armor": 200,
+    "shield": 0,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Reinhardt Wilhelm",
+      "Age": "61",
+      "Occupation": "Adventurer",
+      "Base of Operations": "Stuttgart, Germany",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Rocket Hammer": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": "  rounds per clip",
+        "Damage": "75",
+        "Fire Rate": "1.1 swings per sec",
+        "Range": "5 m range",
+        "description": "Reinhardts Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing."
+      },
+      "Barrier Field": {
+        "HOTKEY": " RightCLICK  or ",
+        "Shield Health": "  2000 barrier HP",
+        "Shield Health Regen": "200 barrier HP per sec",
+        "Movement Speed": "2.75 m/s",
+        "Cooldown": "0 or 5-second",
+        "description": "Reinhardt projects a broad, forward-facing energy barrier, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the barrier, he cannot attack while sustaining it."
+      },
+      "Charge": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 0, 50 or 300",
+        "Range": "55 m",
+        "Movement Speed": "16.66 m/s",
+        "Cooldown": "10-seconds",
+        "description": "Reinhardt charges forth in a straight line, pinning the first enemy in his path and knocking others aside. If he collides with a wall, the foe hes carrying suffers extreme damage."
+      },
+      "Fire Strike": {
+        "HOTKEY": " E  or ",
+        "Damage": " 100",
+        "Projectile Speed": "26.66 m/s",
+        "Cooldown": "6-seconds",
+        "description": "By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches."
+      },
+      "Earthshatter (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 50 per enemy",
+        "Range": "2 m, 20 m",
+        "Duration": "2.5 seconds",
+        "description": "Reinhardt forcefully slams his Rocket Hammer into the ground, knocking down and damaging all enemies in front of him."
+      }
+    }
+  },
+  "Roadhog": {
+    "health": 600,
+    "armor": 0,
+    "shield": 0,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Mako Rutledge"
+    },
+    "abilities": {
+      "Scrap Gun Blast": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 5 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": " 1.3  6 per fragment",
+        "Projectiles": "25 fragments per shot",
+        "Max Damage": " 150 bodyshot",
+        "Falloff": " 11  20 m",
+        "Fire Rate": " 1.3 shots per second",
+        "Projectile Speed": " 57 m/s",
+        "description": "Roadhogs Scrap Gun fires short-range blasts of shrapnel with a wide spread."
+      },
+      "Shrapnel\u00a0Ball (Alternate Fire)": {
+        "HOTKEY": " RightCLICK  or ",
+        "Ammo": " 5 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "50; 1.3  6 per fragment",
+        "Projectiles": "25 fragments per shot",
+        "Max Damage": " 150 bodyshot",
+        "Falloff": "20  29 m",
+        "Fire Rate": "1.3 shots per second",
+        "Projectile Speed": "57 m/s",
+        "Range": "9 m",
+        "description": "Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact."
+      },
+      "Chain Hook": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Damage": " 30",
+        "Projectile Speed": "40 m/s",
+        "Range": "20 m",
+        "Cooldown": "8-second",
+        "description": "Roadhog hurls his chain at a target; if it catches, he yanks them into close range."
+      },
+      "Take A Breather": {
+        "HOTKEY": " E  or ",
+        "Healing Rate": " 300 healing per second on self",
+        "Damage Resistance": "+50%",
+        "Cast Time": "0.6 seconds; 0.4 seconds recovery",
+        "Duration": "1 second (healing), 2 seconds (total)",
+        "Cooldown": "8-seconds",
+        "description": "Roadhog restores a chunk of his health over a brief period of time."
+      },
+      "Whole Hog\u00a0(Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 109.5 per shot",
+        "Max Damage": " 4928 bodyshot per use",
+        "Movement Speed": "2.5 m/s",
+        "Cast Time": "0.5 sec",
+        "Duration": "6 seconds",
+        "description": "After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies."
+      }
+    }
+  },
+  "Soldier-76": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Jack Morrison",
+      "Age": "Unknown",
+      "Occupation": "Vigilante",
+      "Base of Operations": "Unknown",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Heavy Pulse Rifle": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 25 rounds per clip",
+        "Reload Time": "1.5-second",
+        "Damage": "5  19",
+        "Falloff": "30  55 m",
+        "Fire Rate": "8.66 shots per second",
+        "description": "Subject to falloff damage",
+        "Soldier": " 76s rifle remains particularly steady while unloading fully-automatic pulse fire."
+      },
+      "Helix Rockets": {
+        "HOTKEY": " RightCLICK  or ",
+        "Damage": " 120",
+        "Splash Damage": "80;40 splash self damage",
+        "Radius": "2 m",
+        "Projectile Speed": "40 m/s",
+        "Cooldown": "8-second",
+        "description": " Can inflict self knockback",
+        "Tiny rockets spiral out of Soldier": " 76s Pulse Rifle in a single burst. The rockets explosion damages enemies in a small radius."
+      },
+      "Sprint": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Movement Speed": " 8.33 m/s",
+        "Duration": "Lasts until stopped",
+        "Cooldown": "0-second",
+        "Whether he needs to evade a firefight or get back into one, Soldier": " 76 can rush ahead in a burst of speed. His sprint ends if he takes an action other than charging forward."
+      },
+      "Biotic Field": {
+        "HOTKEY": " E  or ",
+        "Heal Rate": " 40 HP per second",
+        "Radius": "5 m",
+        "Duration": "5 seconds",
+        "Cooldown": "15-seconds",
+        "Soldier": " 76 plants a biotic emitter on the ground. Its energy projection restores health to 76 and any of his squadmates within the field."
+      },
+      "Tactical Visor (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Duration": " Lasts 6 seconds",
+        "Reload Time": " 0.75 sec",
+        "description": "Headshot? Cannot headshot",
+        "Soldier": " 76s pinpoint targeting visor locks his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier"
+      }
+    }
+  },
+  "Sombra": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Olivia Colomar\nAge"
+    },
+    "abilities": {
+      "Opportunist (Passive)": {
+        "description": "Sombra detects critically injured enemies through walls. This effect becomes active on an enemy if they fall below half health."
+      },
+      "Machine Pistol": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 60 rounds per clip",
+        "Reload Time": "1.5-second reload",
+        "Damage": "2.4  8 damage",
+        "Faloff Damange": "15  25 m falloff range",
+        "Fire Rate": "20 shots per second",
+        "description": "Sombras fully-automatic machine pistol fires in a short-range spread."
+      },
+      "Hack": {
+        "HOTKEY": " Right CLICK  or ",
+        "Range": " 15 m",
+        "Cast Time": " 0.8 seconds",
+        "Duration": " Lasts 6, 20, 10, or 60 seconds",
+        "Cooldown": " 8-seconds",
+        "description": "Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to spawn faster and make them useless to her opponents. Taking damage interrupts the hacking."
+      },
+      "Stealth": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Movement Speed": " 8.8 m/s",
+        "Cast Time": "0.7 seconds cloaking/uncloaking",
+        "Duration": "6 seconds or until interrupted",
+        "Cooldown": "6-second",
+        "description": "Sombra becomes invisible for a short period of time, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage."
+      },
+      "Translocator": {
+        "HOTKEY": " E  or ",
+        "Projectile Speed": "19 m/s",
+        "Cast Time": "~0.7 seconds",
+        "Duration": "15 seconds or until used/replaced",
+        "Cooldown": "4-second cooldown",
+        "description": "Sombra tosses out a translocator beacon. She can instantly return to the beacons location while it is active you can only have one beacon at a time. (including when its in mid-flight)."
+      },
+      "EMP (Ultimate Ability)": {
+        "HOTKEY": " Q  or ",
+        "Damage Radius": " 15 m radius",
+        "Cast Time": "0.5 sec",
+        "Duration": "Lasts 6 seconds",
+        "description": "Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast."
+      }
+    }
+  },
+  "Symmetra": {
+    "health": 100,
+    "armor": 0,
+    "shield": 100,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Satya Vaswan",
+      "Age": "28",
+      "Occupation": "Architect",
+      "Base of Operations": "Utopaea, India",
+      "Affiliation": "Vishkar Corporation"
+    },
+    "abilities": {
+      "Photon Beam": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 100 rounds per clip",
+        "Reload time": " 1.8 second",
+        "Damage": "7.5/15/30 per hit",
+        "Damage Rate": "30/60/120 per second",
+        "Hit Rate": "4 hits per second",
+        "Fire Rate": "7 rounds per second",
+        "Range": "7 or 9.5 m",
+        "description": "Symmetras weapon emits a short-range beam that homes in on a nearby enemy, dealing continuous damage that increases the longer it is connected."
+      },
+      "Energy Ball (Alternate Fire)": {
+        "HOTKEY": " RightCLICK  or ",
+        "Ammo": " 100 rounds per clip",
+        "Reload time": " 1.8 second",
+        "Damage": "25  125 damage",
+        "Fire Rate": "0.44  1.54 shots per second",
+        "Projectiles": "4  20 rounds per shot",
+        "Projectile Speed": "10 m/s",
+        "description": "The projector can also release a charged energy ball that deals high damage."
+      },
+      "Sentry Turret": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Turrets Storage": " 6",
+        "Max Turrets on Field": "6",
+        "Cast Time": "1.5 seconds",
+        "Cooldown": "10-seconds",
+        "Turret Health": "1 HP",
+        "Turret Damage Rate": "30 or 25.5 per second",
+        "Movement Speed": "-20%",
+        "Range": "10 m range",
+        "Duration": "Lasts until destroyed or replaced",
+        "description": "Symmetra sets up a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Several turrets can be built on the battlefield at once."
+      },
+      "Photon Barrier": {
+        "HOTKEY": " E  or ",
+        "Shield": " 1000 barrier HP",
+        "Projectile Speed": "5.5 m/s",
+        "Duration": "Lasts until destroyed",
+        "Cooldown": "10-second",
+        "description": "Symmetra projects a moving barrier that absorbs damage as it travels forward."
+      },
+      "Teleporter (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Duration": " Lasts until destroyed or depleted of charges",
+        "Number of uses": " 6 charges",
+        "Cast time": " 2 seconds",
+        "description": "Symmetra places a teleporter exit pad at her current location, and connects it to a teleporter entry pad at her teams starting point. Allies can travel through the entry pad to the exit pad instantly, enabling them to return to the fight swiftly after being defeated."
+      },
+      "Shield Generator (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Radius": " 50 m",
+        "Buff": "+75 shields",
+        "Cast Time": "2 sec",
+        "Duration": "Lasts until destroyed, 5 sec",
+        "description": "Symmetra deploys a wide-radius generator that provides increased shielding to her entire team."
+      }
+    }
+  },
+  "Torbjorn": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": "Torbjrn Lindholm",
+      "Age": "57",
+      "Occupation": "Weapons Designer",
+      "Base of Operations": "Gothenburg, Sweden",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Scrap Collector (Passive)": {
+        "description": "Torbjrn can collect scrap from enemies or allies that die on the battlefield.",
+        "Ability": " +2 scrap per second, +15 scrap per pickup; Max 200 scrap"
+      },
+      "Rivet Gun Shot": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 18 rounds per clip",
+        "Reload time": " 2 seconds",
+        "Damage": "70 per shot",
+        "Fire Rate": "1.67 shot per second",
+        "Projectiles": "1 round per shot",
+        "Projectile Speed": "~55 m/s",
+        "description": "Torbjrn fires rivets at long range"
+      },
+      "Rivet Gun Burst (Alternate Fire)": {
+        "HOTKEY": "Right Click or ",
+        "Ammo": " 18 rounds per clip",
+        "Reload time": " 2 seconds",
+        "Damage": "6  15 per pellet",
+        "Projectiles": "10 pellets per shot",
+        "Max Damage": " 150 bodyshot",
+        "Falloff": "7  20 m",
+        "Fire Rate": "1.25 shots per second",
+        "description": "Torbjrn ejects molten metal from his gun in a short, close-range burst.",
+        "Projectile Speed": "~80 m/s"
+      },
+      "Forge Hammer (Alternate Weapon)": {
+        "HOTKEY": " LEft Click or ",
+        "SWITCH": " SCROLL WHEEL or 2or ",
+        "Damage": "55 per swing",
+        "Healing": "50 per swing",
+        "Fire Rate": "1.25 swings per second",
+        "description": "Torbjrn uses his multipurpose hammer to build, upgrade and repair turrets. In a pinch, it can also be swung as a weapon."
+      },
+      "Build Turret": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Deploy Time": " 3 seconds",
+        "Cooldown": "8-seconds",
+        "Turret Health": "150, 300, or 800 HP",
+        "Turret Damage": "14 per rounds, 14 per rocket",
+        "Turret Fire Rate": "2, 4, 5 rounds per second; 4 rockets per second",
+        "Turret Range": "40 m",
+        "Turret Ammo": "",
+        "Duration": "Lasts until destroyed or replaced",
+        "description": "Torbjrn constructs an enemy-tracking autocannon. He can use his Forge Hammer to repair or upgrade it, increasing its health and adding a second cannon barrel and a rocket launcher."
+      },
+      "Armor Pack": {
+        "HOTKEY": " E  or ",
+        "Armor": "  +75 temporary per pack",
+        "Scrap": "50 per pack",
+        "Cooldown": "0-second cooldown",
+        "description": "Torbjrn deploys an armor upgrade; either he or his allies can pick it up to absorb some damage."
+      },
+      "Molten Core (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Attack Speed": "",
+        "Armor": "+300",
+        "Duration": "12 seconds",
+        "description": "After overheating his personal forge, Torbjrn gains a significant amount of armor and scrap. He also attacks (and builds and repairs turrets) far faster than normal."
+      }
+    }
+  },
+  "Tracer": {
+    "health": 150,
+    "armor": 0,
+    "shield": 0,
+    "type": "OFFENSE",
+    "bio": {
+      "Real Name": "Lena Oxton",
+      "Age": "26",
+      "Occupation": "Adventurer",
+      "Base of Operations": "London, England",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Pulse Pistols": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 40 rounds per clip",
+        "Reload Time": "1-second",
+        "Damage": "1.5  6 per round",
+        "Projectiles": "2 rounds per shot",
+        "Max Damage": " 12 bodyshot",
+        "Falloff": "11  30 m",
+        "Fire Rate": "20 shots per second",
+        "description": "Tracer rapid-fires both of her pistols."
+      },
+      "Blink": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Charges": " 3",
+        "Range": "7.8 m",
+        "Cooldown": "3-second",
+        "description": "Tracer zips horizontally through space in the direction shes moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds."
+      },
+      "Recall": {
+        "HOTKEY": " E  or ",
+        "Duration": " 1.25 seconds",
+        "Cooldown": " 12 seconds",
+        "Ability": " Returnsyou to position from 3 seconds ago",
+        "description": "Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before."
+      },
+      "Pulse Bomb (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage": " 400",
+        "Radius": "3 m",
+        "Duration": "1 second",
+        "description": "Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius."
+      }
+    }
+  },
+  "Widowmaker": {
+    "health": 200,
+    "armor": 0,
+    "shield": 0,
+    "type": "DEFENSE",
+    "bio": {
+      "Real Name": " Amlie Lacroix",
+      "Age": "33",
+      "Occupation": "Assassin",
+      "Base of Operations": "Annecy, France",
+      "Affiliation": "Talon"
+    },
+    "abilities": {
+      "Widow\u2019s Kiss (Automatic)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 30 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "13 per shot",
+        "Fire Rate": "10 shots per second",
+        "description": "Widowmakers rifle can be shot in fully-automatic mode allowing her to effectively shoot targets from close to medium range."
+      },
+      "Widow\u2019s Kiss (Scoped, Alternate fire)": {
+        "HOTKEY": " hold RightCLICK  or ",
+        "Ammo": " 30 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Movement Speed": "1.9 m/s",
+        "Damage": "12  120",
+        "Fire Rate": "1 uncharged shot per 0.45 seconds  1 fully charged shot per 1.2 seconds",
+        "description": "Widowmakers versatile sniper rifle is ideal for scope-aimed shots at distant targets.",
+        "Charge Time": "0.75 second charging, 0.45 second buffer, 0.33 second scope in/out"
+      },
+      "Grappling Hook": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Projectile Speed": "  20 m/s",
+        "Range": "20 m",
+        "Movement Speed": "16 m/s",
+        "Cooldown": "8-seconds",
+        "description": "Widowmaker launches a grappling hook towards the location shes aiming at  when the hook connects with a scalable surface, shes quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets."
+      },
+      "Venom Mine": {
+        "HOTKEY": " E  or ",
+        "Damage": " 15 per second",
+        "Max Damage": " 75 total",
+        "description": "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mines motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.",
+        "Projectile Speed": "19 m/s",
+        "Radius": "3 m",
+        "Duration": "Lasts until destroyed, 5 seconds",
+        "Cooldown": "15-second cooldown"
+      },
+      "Infra-Sight (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Cast Time": " 0.5 sec cast",
+        "Duration": "15.5 seconds",
+        "description": "Widowmakers recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies."
+      }
+    }
+  },
+  "Winston": {
+    "health": 400,
+    "armor": 100,
+    "shield": 0,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Winston",
+      "Age": "29",
+      "Occupation": "Scientist, Adventurer",
+      "Base of Operations": "Formerly Horizon Lunar Colony",
+      "Affiliation": "Formerly Overwatch"
+    },
+    "abilities": {
+      "Tesla Cannon": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 100 rounds per clip",
+        "Reload Time": "1.5-second",
+        "Damage": "3 per round",
+        "Damage Rate": "60 damage per second",
+        "Fire Rate": "20 rounds per second",
+        "Range": "8 m",
+        "Radius": "6 m",
+        "description": "Winstons weapon fires a short-range electric barrage for as long as he holds down the trigger."
+      },
+      "Jump Pack": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Splash damage": " 1 and 45  1 damage",
+        "Range": "20 m",
+        "Radius": "5 m",
+        "Cooldown": "6 or 2-second",
+        "description": "Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands."
+      },
+      "Barrier Projector": {
+        "HOTKEY": " E  or ",
+        "Barrier": " 600 HP",
+        "Radius": "5 m",
+        "Duration": "5 seconds or until destroyed",
+        "Cooldown": "13-second",
+        "description": "Winstons barrier projector extends a bubble-shaped field that absorbs damage until its destroyed. Allies protected by the barrier can return fire from within it."
+      },
+      "Primal Rage (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Health Buff": "+500 maximum health; health and armor fully replenished",
+        "Melee Rate": "1.55 swings per second",
+        "Damage": "40 per swing",
+        "Range": "4 m",
+        "Movement Speed": "7.15 m/s",
+        "Duration": "Lasts 10 seconds",
+        "description": "Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks."
+      }
+    }
+  },
+  "Zarya": {
+    "health": 200,
+    "armor": 0,
+    "shield": 200,
+    "type": "TANK",
+    "bio": {
+      "Real Name": "Aleksandra Zaranova",
+      "Age": "28",
+      "Occupation": "Soldier",
+      "Base of Operations": " Krasnoyarsk Front, Russia",
+      "Affiliation": "Russian Defense Forces"
+    },
+    "abilities": {
+      "Energy (Passive)": {
+        "Particle Cannon Damage": " +1% per point; Max +100% Particle Cannon damage",
+        "description": "Damage blocked increases Particle Cannon damage.",
+        "Buffer": "2 sec decay"
+      },
+      "Particle Energy Beam": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 100 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "4.75  9.5 per round",
+        "Damage Rate": "95  190 per second",
+        "Fire Rate": "20 rounds per second",
+        "Projectiles": "1 round per shot",
+        "Range": "15 m",
+        "description": "Zaryas mighty Particle Cannon unleashes a short-range beam of destructive energy."
+      },
+      "Particle Explosive Charge (Alternate fire)": {
+        "HOTKEY": " RightCLICK  or ",
+        "Ammo": " 100 rounds per clip",
+        "Reload time": " 1.5 seconds",
+        "Damage": "46  92 per shot",
+        "Splash Damage": "45  90 splash; 23.5  47 splash self damage",
+        "Radius": "2  3 m",
+        "Fire Rate": "1 shot per second",
+        "Projectiles": "25 rounds per shot",
+        "Projectile Speed": "23.5 m/s projectile speed",
+        "description": "Alternatively, Zarya can lob an explosive charge to strike multiple opponents."
+      },
+      "Particle Barrier": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Barrier Health": " 200",
+        "Duration": "2 seconds or until destroyed",
+        "Cooldown": "10-second",
+        "description": "The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapons damage and the width of its beam."
+      },
+      "Projected Barrier": {
+        "HOTKEY": " E  or ",
+        "Barrier Health": " 200",
+        "description": "Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon.",
+        "Duration": "2 seconds",
+        "Cooldown": "8-second"
+      },
+      "Graviton Surge (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Damage Rate": " 5.5 per sec",
+        "Max Damage": " 22 damage per enemy",
+        "Radius": "8 m",
+        "Duration": "4 seconds",
+        "description": "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while theyre trapped."
+      }
+    }
+  },
+  "Zenyatta": {
+    "health": 50,
+    "armor": 0,
+    "shield": 150,
+    "type": "SUPPORT",
+    "bio": {
+      "Real Name": "Tekhartha Zenyatta",
+      "Age": "20",
+      "Occupation": "Wandering Guru, Adventurer",
+      "Base of Operations": "Formerly Shambali Monastery, Nepal",
+      "Affiliation": "Formerly The Shambali"
+    },
+    "abilities": {
+      "Orb of Destruction (Singular Orb)": {
+        "HOTKEY": " LEFT CLICK  or ",
+        "Ammo": " 20 rounds per clip",
+        "Reload time": " 2 seconds",
+        "Damage": "46",
+        "Fire Rate": "2.5 shots per second",
+        "Projectile Speed": "60 m/s projectile speed",
+        "description": "Zenyatta projects his destructive energy orbs individually."
+      },
+      "Orb of Destruction (Orb Volley)": {
+        "HOTKEY": " RightCLICK  or ",
+        "Ammo": " 20 rounds per clip",
+        "Reload time": " 2 seconds",
+        "Damage": "46 per orb",
+        "Projectiles": "1  5 orbs per shot",
+        "Max Damage": "230 bodyshot",
+        "Fire Rate": "5 orbs in 0.4 seconds",
+        "description": "Zenyatta projects his destructive energy orbs in a rapid-fire volley after a few seconds spent gathering power.",
+        "Projectile Speed": "60 m/s"
+      },
+      "Orb of Harmony": {
+        "HOTKEY": " LEFTSHIFT  or ",
+        "Healing": " 30 HP per second",
+        "Projectile Speed": "120 m/s",
+        "Range": "40 m",
+        "Duration": "3 seconds or until target is changed",
+        "Cooldown": "none",
+        "description": "Zenyatta casts an orb over the shoulder of a targeted ally. So long as Zenyatta maintains line of sight, the orb slowly restores health to his ally. Only one ally can receive the orbs benefit at a time."
+      },
+      "Orb of Discord": {
+        "HOTKEY": " E  or ",
+        "Damage Resistance Debuff": " -30% resistance",
+        "Projectile Speed": "120 m/s",
+        "Range": "40 m",
+        "Duration": "3 seconds or until target is changed",
+        "Cooldown": "none",
+        "description": "Attaching the orb of discord to an opponent amplifies the amount of damage they receive for as long as Zenyatta maintains line of sight. Only one opponent can suffer the orbs effects at a time."
+      },
+      "Transcendence (Ultimate)": {
+        "HOTKEY": " Q  or ",
+        "Radius": " 10 m",
+        "Heal Rate": "300 healing per second",
+        "Movement Speed": "11 m/s",
+        "Duration": "6 seconds",
+        "description": "Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health and that of nearby allies."
+      }
+    }
+  }
+}
